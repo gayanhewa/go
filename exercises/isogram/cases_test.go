@@ -12,7 +12,7 @@ var testCases = []struct {
 	{
 		description: "empty string",
 		input:       "",
-		expected:    true,
+		expected:    false,
 	},
 	{
 		description: "isogram with only lower case characters",
